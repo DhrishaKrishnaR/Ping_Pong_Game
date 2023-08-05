@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ping Pong</title>
+</head>
+<body>
+    <!--type .(div name) and enter to create a div class
+        and  join #(id name) for id-->
+    <div class="container">
+        <button id="startButton" >Start</button>
+        <button id="resumeButton" ">Resume</button>
+        <button id="stopButton" >Stop</button></div>
+    <div class="score">
+        
+        <div class="player-score" id="player-score">0</div>
+        <div class="computer-score" id="computer-score">0</div>
+    </div>
+    <div class="ball" id="ball"></div>
+    <div class="paddle left" id="player-paddle"></div>
+    <div class="paddle right" id="computer-paddle"></div>
+    
+    <script src="Ball.js"></script>
+    <script src="Paddle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
